@@ -1,0 +1,22 @@
+# Keep medical datasets and model artifacts out of this documentation repository.
+data/**
+!data/README.md
+*.nii
+*.nii.gz
+*.mha
+*.mhd
+*.nrrd
+*.dcm
+*.dicom
+*.mrxs
+*.svs
+*.tif
+*.tiff
+*.h5
+*.hdf5
+*.pth
+*.pt
+*.ckpt
+*.onnx
+*.zip
+*.7z
