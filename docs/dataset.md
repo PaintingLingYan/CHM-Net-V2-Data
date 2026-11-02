@@ -1,16 +1,18 @@
 # Data Description
 
-## Nasopharyngeal Carcinoma MRI: GBNPC 2026
+## Nasopharyngeal Carcinoma MRI and H&E: GBNPC 2026
 
-**Modality:** MRI
+**Modalities:** MRI and H&E histopathology
 
 **Size:** 183 3D volumes
 
 **Five-fold split sizes:** 37 / 37 / 37 / 36 / 36
 
-GBNPC 2026 includes three types of nasopharyngeal MRI scans with professional tumor annotations: T1-weighted imaging (T1WI), T2-weighted imaging (T2WI), and contrast-enhanced T1-weighted imaging (CE-T1WI).
+GBNPC 2026 includes three types of nasopharyngeal MRI scans with professional tumor annotations: T1-weighted imaging (T1WI), T2-weighted imaging (T2WI), and contrast-enhanced T1-weighted imaging (CE-T1WI), together with corresponding hematoxylin and eosin (H&E)-stained histopathology images.
 
-![GBNPC 2026 dataset visualization. From top to bottom, the images demonstrate the T1WI, T2WI, and CE-T1WI modalities.](../img/GBNPC_2026_data.png)
+The figure shows representative patients with low (upper row) and high (lower row) intratumoral microbial density. From left to right, each row presents T1WI, T2WI, CE-T1WI, and the corresponding H&E image at 20x magnification.
+
+![GBNPC 2026 MRI and H&E examples: low microbial density in the upper row and high microbial density in the lower row](../img/GBNPC_2026_data.png)
 
 The technical scanning parameters for the dataset are summarized in the following table.
 
